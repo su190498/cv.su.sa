@@ -1,0 +1,67 @@
+/* tablets and under */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    background-position-x: center;
+  }
+
+  /* Aboout section */
+  .info {
+    width: 50%;
+    padding: 40px 16px 24px 16px;
+  }
+
+  .info h2 {
+    margin-bottom: 40px;
+  }
+
+  /* About job infor section */
+  #job-info {
+    margin-bottom: 32px;
+    padding: 24px;
+  }
+
+  .job-info-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+  }
+
+  .mini-box {
+    margin-top: 24px;
+  }
+
+  /* Certificate section */
+  .certificate-small-info {
+    display: block;
+  }
+
+  .certificate-img {
+    width: 240px;
+    height: 119px;
+    margin-right: 32px;
+  }
+
+  /* Project section */
+  .project-infor {
+    gap: 12px;
+  }
+
+  .project-detail h3,
+  .project-detail-nav,
+  .project-detail-info {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .project-detail-nav {
+    gap: 2px;
+    padding-left: 4px;
+  }
+
+  .big-btn {
+    padding: 4px 8px;
+    border-radius: 32px;
+  }
+}

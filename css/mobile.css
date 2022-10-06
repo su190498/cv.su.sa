@@ -1,0 +1,103 @@
+/* mobile */
+@media (max-width: 576px) {
+  /* Header */
+  header {
+    background-position-x: center;
+  }
+
+  #myName {
+    font-size: 40px;
+  }
+
+  #myJob {
+    font-size: 16px;
+  }
+
+  /* Navbar */
+  .nav-container {
+    display: block;
+  }
+
+  .nav-container a {
+    display: block;
+    border: none;
+    margin-left: 35%;
+    text-align: left;
+  }
+
+  /* About section  */
+  .info {
+    width: 100%;
+    padding: 80px 32px 48px 32px;
+  }
+
+  .info h2 {
+    margin-bottom: 40px;
+  }
+
+  /* About job infor section */
+  .job-info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 32px;
+  }
+
+  .mini-box {
+    margin-top: 24px;
+  }
+  /* Certificate section */
+  .certificate-info {
+    display: block;
+  }
+
+  .certificate-small-info {
+    border: none;
+    border-bottom: 2px solid rgb(217, 72, 15, 0.25);
+    border-top: none;
+    border-left: none;
+    margin-top: 32px;
+    padding-top: 12px;
+  }
+
+  /* Project section */
+  .project-infor {
+    margin-bottom: 48px 0;
+  }
+
+  .project-detail h3,
+  .project-detail-nav,
+  .project-detail-info {
+    font-size: 14px;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .project-detail h3 {
+    font-size: 18px;
+  }
+
+  .project-detail-nav {
+    gap: 2px;
+    padding-left: 4px;
+  }
+
+  .big-btn {
+    padding: 4px 8px;
+    border-radius: 32px;
+  }
+
+  /* Footer */
+  #footer {
+    height: 70px;
+  }
+
+  /* .footer-container {
+    margin-left: 24px;
+  } */
+
+  .footer-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
